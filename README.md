@@ -59,7 +59,7 @@ We see that if we initialize from content image the resulting image will look mo
 
 If we initialize the image from random noise, the resulting image will be different each time. The resulting images will not differ drastically, but the difference will be present.
 
-<p>
+<p align="center">
 <img src="images/starry_night_init/noise_1.png" width="300" height="225"> <img src="images/starry_night_init/noise_2.png" width="300" height="225"> </br>
 <img src="images/starry_night_init/noise_3.png" width="300" height="225"> <img src="images/starry_night_init/noise_4.png" width="300" height="225">
 </p> 
@@ -73,4 +73,4 @@ Below we can see an example of this. We can notice that when we use the layer *c
 
 | conv2_2  | conv4_2  |
 |---|---|
-|  <img src="images/content_layer_effect/2_2.png" width="300" height="225">  | <img src="images/content_layer_effect/4_2.png" width="300" height="225">
+| <img src="images/content_layer_effect/2_2.png" width="300" height="225">  | <img src="images/content_layer_effect/4_2.png" width="300" height="225">

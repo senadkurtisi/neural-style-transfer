@@ -59,9 +59,16 @@ Here we discuss how will the resulting image look like if we initialized the gen
 
 We see that if we initialize from content image the resulting image will look more like the original content image. On the other hand if we intialize from style, we see that the resulting image contains much more elements of the used artwork (for example, the moon).
 
-| From content  | From style  |
-|---|---|
-|  <img src="images/starry_night_init/from_content.png" width="300" height="225">  | <img src="images/starry_night_init/from_style.png" width="300" height="225">  |
+<div align="center">
+    <table>
+     <tr>
+      <td align="center"><b>From content</b></td><td align="center"><b>From style</b></td>
+     </tr>
+     <tr>
+      <td><img src="images/starry_night_init/from_content.png" width="300" height="225"></td> <td><img src="images/starry_night_init/from_style.png" width="300" height="225"></td>
+     </tr>
+    </table>
+</div>
 
 If we initialize the image from random noise, the resulting image will be different each time. The resulting images will not differ drastically, but the difference will be present.
 
@@ -82,14 +89,10 @@ Below we can see an example of this. We can notice that when we use the layer *c
 <div align="center">
     <table>
      <tr>
-      <td align="center" font-weight="bold">conv2_2</td><td align="center" font-weight="bold">conv2_2</td>
+      <td align="center"><b>conv2_2</b></td><td align="center"><b>conv4_2</b></td>
      </tr>
-        <tr>
-            <td><img src="images/content_layer_effect/2_2.png" width="300" height="225"></td> <td><img src="images/content_layer_effect/4_2.png" width="300" height="225"></td>
-        </tr>
+     <tr>
+      <td><img src="images/content_layer_effect/2_2.png" width="300" height="225"></td> <td><img src="images/content_layer_effect/4_2.png" width="300" height="225"></td>
+     </tr>
     </table>
 </div>
-
-| conv2_2  | conv4_2  |
-|---|---|
-| <img src="images/content_layer_effect/2_2.png" width="300" height="225">  | <img src="images/content_layer_effect/4_2.png" width="300" height="225">

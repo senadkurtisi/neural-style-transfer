@@ -33,8 +33,13 @@ If we only included the content component when computing the loss, it would resu
 
 Below we can see reconstructed content image by using *conv1_2, conv2_2, conv3_2, conv4_2, conv5_2* layers of the VGG19 network respectively.
 
+<p align="center">
 <img src="images/reconstruction/content_1.png" width="300" height="225"> <img src="images/reconstruction/content_2.png" width="300" height="225"><img src="images/reconstruction/content_3.png" width="300" height="225">
+</p>
+
+<p>
 <img src="images/reconstruction/content_4.png" width="300" height="225"> <img src="images/reconstruction/content_5.png" width="300" height="225">
+</p>
 
 ## Style reconstruction
 Similarly to the previous section here we include only the style component. We are calculating the style loss, and according to that reconstructing the style image. We can notice that the usage of convolutional layers which are higher in the hierarchy results in style paterns which consist out of much larger objects than when we use only the lower layers of the CNN.
@@ -55,8 +60,8 @@ We see that if we initialize from content image the resulting image will look mo
 
 If we initialize the image from random noise, the resulting image will be different each time. The resulting images will not differ drastically, but the difference will be present.
 
- <img src="images/starry_night_init/noise_1.png" width="300" height="225"> <img src="images/starry_night_init/noise_2.png" width="300" height="225"> </br>
- <img src="images/starry_night_init/noise_3.png" width="300" height="225"> <img src="images/starry_night_init/noise_4.png" width="300" height="225">
+<img src="images/starry_night_init/noise_1.png" width="300" height="225"> <img src="images/starry_night_init/noise_2.png" width="300" height="225"> </br>
+<img src="images/starry_night_init/noise_3.png" width="300" height="225"> <img src="images/starry_night_init/noise_4.png" width="300" height="225">
  
 ## Choise of the content layer
 How does the final result change when we use different layer as the content layer? </br>

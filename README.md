@@ -43,8 +43,10 @@ Similarly to the previous section here we include only the style component. We a
 
 Below we can see reconstructed content image by using *conv1_1, conv2_1, conv3_1, conv4_1, conv5_1* layers of the VGG19 network respectively. **There is a small difference than in the previous section.** First image was reconstructed only using *conv1_1*, the second one by using *conv1_1* and *conv2_1*, third one by using *conv1_1*, *conv2_1* and *conv3_1* etc.
 
+<p align="center>
 <img src="images/reconstruction/style_1.png" width="300" height="225"> <img src="images/reconstruction/style_2.png" width="300" height="225"><img src="images/reconstruction/style_3.png" width="300" height="225">
 <img src="images/reconstruction/style_4.png" width="300" height="225"> <img src="images/reconstruction/style_5.png" width="300" height="225">
+</p>
 
 ## Image initialization
 Here we discuss how will the resulting image look like if we initialized the generated image differently.
@@ -57,8 +59,10 @@ We see that if we initialize from content image the resulting image will look mo
 
 If we initialize the image from random noise, the resulting image will be different each time. The resulting images will not differ drastically, but the difference will be present.
 
+<p>
 <img src="images/starry_night_init/noise_1.png" width="300" height="225"> <img src="images/starry_night_init/noise_2.png" width="300" height="225"> </br>
 <img src="images/starry_night_init/noise_3.png" width="300" height="225"> <img src="images/starry_night_init/noise_4.png" width="300" height="225">
+</p> 
  
 ## Choise of the content layer
 How does the final result change when we use different layer as the content layer? </br>

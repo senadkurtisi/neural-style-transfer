@@ -35,9 +35,6 @@ Below we can see reconstructed content image by using *conv1_2, conv2_2, conv3_2
 
 <p align="center">
 <img src="images/reconstruction/content_1.png" width="300" height="225"> <img src="images/reconstruction/content_2.png" width="300" height="225"><img src="images/reconstruction/content_3.png" width="300" height="225">
-</p>
-
-<p>
 <img src="images/reconstruction/content_4.png" width="300" height="225"> <img src="images/reconstruction/content_5.png" width="300" height="225">
 </p>
 

@@ -79,13 +79,13 @@ As we have previously said, CNNs learn more complex features progressively throu
 That means that if we choose our content layer to be the leayer which is higher in the hierarchy it would lead to image objects keeping their basic shape, but with some distortions. </br>
 Below we can see an example of this. We can notice that when we use the layer *conv4_2* (which is higher in the hierarchy than the *conv2_2*) we are still aware that houses appear in the picture, but they appear more distorted. This can be noticed in the houses which are on the right part of the image.
 
-<center>
+<div align="center">
     <table>
         <tr>
             <td><img src="images/content_layer_effect/2_2.png" width="300" height="225"></td> <td><img src="images/content_layer_effect/4_2.png" width="300" height="225"></td>
         </tr>
     </table>
-</center>
+</div>
 
 | conv2_2  | conv4_2  |
 |---|---|

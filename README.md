@@ -44,11 +44,11 @@ Below we can see reconstructed content image by using *conv1_1, conv2_1, conv3_1
 <img src="images/reconstruction/style_1.png" width="300" height="225"> <img src="images/reconstruction/style_2.png" width="300" height="225"><img src="images/reconstruction/style_3.png" width="300" height="225">
 <img src="images/reconstruction/style_4.png" width="300" height="225"> <img src="images/reconstruction/style_5.png" width="300" height="225">
 
-
 ## Image initialization
 Here we discuss how will the resulting image look like if we initialized the generated image differently.
 
 We see that if we initialize from content image the resulting image will look more like the original content image. On the other hand if we intialize from style, we see that the resulting image contains much more elements of the used artwork (for example, the moon).
+
 | From content  | From style  |
 |---|---|
 |  <img src="images/starry_night_init/from_content.png" width="300" height="225">  | <img src="images/starry_night_init/from_style.png" width="300" height="225">  |
@@ -58,3 +58,13 @@ If we initialize the image from random noise, the resulting image will be differ
  <img src="images/starry_night_init/noise_1.png" width="300" height="225"> <img src="images/starry_night_init/noise_2.png" width="300" height="225"> </br>
  <img src="images/starry_night_init/noise_3.png" width="300" height="225"> <img src="images/starry_night_init/noise_4.png" width="300" height="225">
  
+## Choise of the content layer
+How does the final result change when we use different layer as the content layer? </br>
+As we have previously said, CNNs learn more complex features progressively through the layers. If we try to visualize the learnt features, we would notice that the earlier layers tend to learn features like vertical & horizontal edges while the layer which are higher in the hierarchy try to learn much complex features and focus much more on the general shapes i.e. the content of the image. 
+
+That means that if we choose our content layer to be the leayer which is higher in the hierarchy it would lead to image objects keeping their basic shape, but with some distortions. </br>
+Below we can see an example of this. We can notice that when we use the layer *conv4_2* (which is higher in the hierarchy than the *conv2_2*) we are still aware that houses appear in the picture, but they appear more distorted. This can be noticed in the houses which are on the right part of the image.
+
+| conv2_2  | conv4_2  |
+|---|---|
+|  <img src="images/content_layer_effect/2_2.png" width="300" height="225">  | <img src="images/content_layer_effect/4_2.png" width="300" height="225">

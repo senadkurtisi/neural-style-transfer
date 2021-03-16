@@ -34,8 +34,11 @@ If we only included the content component when computing the loss, it would resu
 Below we can see reconstructed content image by using *conv1_2, conv2_2, conv3_2, conv4_2, conv5_2* layers of the VGG19 network respectively.
 
 <p align="center">
-<img src="images/reconstruction/content_1.png" width="300" height="225"> <img src="images/reconstruction/content_2.png" width="300" height="225"><img src="images/reconstruction/content_3.png" width="300" height="225">
-<img src="images/reconstruction/content_4.png" width="300" height="225"> <img src="images/reconstruction/content_5.png" width="300" height="225">
+ <img src="images/reconstruction/content_1.png" width="300" height="225"> 
+ <img src="images/reconstruction/content_2.png" width="300" height="225">
+ <img src="images/reconstruction/content_3.png" width="300" height="225">
+ <img src="images/reconstruction/content_4.png" width="300" height="225"> 
+ <img src="images/reconstruction/content_5.png" width="300" height="225">
 </p>
 
 ## Style reconstruction
@@ -43,8 +46,12 @@ Similarly to the previous section here we include only the style component. We a
 
 Below we can see reconstructed content image by using *conv1_1, conv2_1, conv3_1, conv4_1, conv5_1* layers of the VGG19 network respectively. **There is a small difference than in the previous section.** First image was reconstructed only using *conv1_1*, the second one by using *conv1_1* and *conv2_1*, third one by using *conv1_1*, *conv2_1* and *conv3_1* etc.
 
-<div align="center"
-<img src="images/reconstruction/from_style_1.png" width="300" height="225">
+<div align="center">
+ <img src="images/reconstruction/from_style_1.png" width="300" height="225"> 
+ <img src="images/reconstruction/from_style_2.png" width="300" height="225"> 
+ <img src="images/reconstruction/from_style_3.png" width="300" height="225">
+ <img src="images/reconstruction/from_style_4.png" width="300" height="225"> 
+ <img src="images/reconstruction/from_style_5.png" width="300" height="225">
 </div>
 
 ## Image initialization
@@ -59,8 +66,10 @@ We see that if we initialize from content image the resulting image will look mo
 If we initialize the image from random noise, the resulting image will be different each time. The resulting images will not differ drastically, but the difference will be present.
 
 <p align="center">
-<img src="images/starry_night_init/noise_1.png" width="300" height="225"> <img src="images/starry_night_init/noise_2.png" width="300" height="225"> </br>
-<img src="images/starry_night_init/noise_3.png" width="300" height="225"> <img src="images/starry_night_init/noise_4.png" width="300" height="225">
+ <img src="images/starry_night_init/noise_1.png" width="300" height="225"> 
+ <img src="images/starry_night_init/noise_2.png" width="300" height="225"> </br>
+ <img src="images/starry_night_init/noise_3.png" width="300" height="225"> 
+ <img src="images/starry_night_init/noise_4.png" width="300" height="225">
 </p> 
  
 ## Choise of the content layer

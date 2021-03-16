@@ -81,6 +81,9 @@ Below we can see an example of this. We can notice that when we use the layer *c
 
 <div align="center">
     <table>
+     <tr>
+      <td align="center" font-weight="bold">conv2_2</td><td align="center" font-weight="bold">conv2_2</td>
+     </tr>
         <tr>
             <td><img src="images/content_layer_effect/2_2.png" width="300" height="225"></td> <td><img src="images/content_layer_effect/4_2.png" width="300" height="225"></td>
         </tr>

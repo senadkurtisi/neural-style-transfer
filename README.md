@@ -90,7 +90,7 @@ If we initialize the image from random noise, the resulting image will be differ
  <img src="images/starry_night_init/noise_4.png" width="300" height="225">
 </p> 
  
-## Choise of the content layer
+## Choice of the content layer
 How does the final result change when we use different layer as the content layer? </br>
 As we have previously said, CNNs learn more complex features progressively through the layers. If we try to visualize the learnt features, we would notice that the earlier layers tend to learn features like vertical & horizontal edges while the layer which are higher in the hierarchy try to learn much complex features and focus much more on the general shapes i.e. the content of the image. 
 
@@ -107,3 +107,9 @@ Below we can see an example of this. We can notice that when we use the layer *c
      </tr>
     </table>
 </div>
+
+## Setup and Instructions
+1. Open Anaconda Prompt and navigate to the directory of this repo by using: ```cd PATH_TO_THIS_REPO ```
+2. Execute ``` conda env create -f environment.yml ``` This will set up an environment with all necessary dependencies. 
+3. Activate previously created environment by executing: ``` conda activate neural-style-transfer ```
+4. Run ``` main.py ``` in your IDE or via command line by executing ``` python src/main.py ```. </br>

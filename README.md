@@ -1,5 +1,16 @@
 # Neural Style Transfer in PyTorch
 
+### Table of Contents
+* [Motivation](#motivation)
+* [Neural Style Transfer](#neural-style-transfer)
+* [Implementation](#implementation)
+* [Style Transfer Results](#style-transfer-results)
+* [Content reconstruction](#content-reconstruction)
+* [Style reconstruction](#style-reconstruction)
+* [Image initialization](#image-initialization)
+* [Content layer choice](#choice-of-the-content-layer)
+* [Instructions](#setup-and-instructions)
+
 ## Motivation
 This project was implemented as an attempt of recreating the original [neural style transfer paper](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf).
 
